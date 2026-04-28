@@ -42,14 +42,14 @@ export default function Promo() {
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
-        <motion.div style={{ y }} className="relative w-full h-full">
-          <img
-            src="https://cdn.poehali.dev/projects/80cea824-f242-4d1c-92d7-c126d258457c/bucket/e190d7d1-2601-46a5-873d-911dc03a2dd6.png"
-            alt="Архитектурный чертёж жилого дома"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/65" />
-        </motion.div>
+        <motion.div
+          style={{
+            y,
+            background:
+              "linear-gradient(135deg, #0a1628 0%, #142850 40%, #1e3a6f 75%, #2a4d8f 100%)",
+          }}
+          className="relative w-full h-full"
+        />
       </div>
 
       <div className="relative z-10 w-full max-w-7xl px-6">
