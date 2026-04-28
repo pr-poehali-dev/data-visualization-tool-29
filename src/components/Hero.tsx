@@ -30,9 +30,15 @@ export default function Hero() {
         <p className="uppercase tracking-[0.3em] text-xs md:text-sm mb-8 opacity-70">
           Предложение для «Горстройпроект»
         </p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1] max-w-5xl mx-auto">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1] max-w-5xl mx-auto mb-10">
           Сайты ЖК — без агентства
         </h1>
+        <a
+          href="mailto:azaliya@poehalli.ru?subject=Запрос%20бесплатного%20пробного%20периода%20—%20Горстройпроект"
+          className="inline-block bg-white text-black px-8 py-4 text-sm uppercase tracking-wider font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Получить бесплатный пробный период
+        </a>
       </div>
     </div>
   );
