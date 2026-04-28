@@ -35,9 +35,10 @@ export default function Hero() {
         </h1>
         <a
           href="#contact"
-          className="relative z-30 inline-block bg-white text-black px-6 sm:px-8 py-4 text-xs sm:text-sm uppercase tracking-wider font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer w-full max-w-sm sm:w-auto sm:max-w-none"
+          className="relative z-30 inline-block bg-white text-black px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-sm uppercase tracking-wider font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer"
         >
-          Получить бесплатный пробный период
+          <span className="sm:hidden">Попробовать бесплатно</span>
+          <span className="hidden sm:inline">Получить бесплатный пробный период</span>
         </a>
       </div>
     </div>
