@@ -44,11 +44,11 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="https://cdn.poehali.dev/projects/80cea824-f242-4d1c-92d7-c126d258457c/files/e21cf463-7f78-4c53-8f70-a1bf06767b32.jpg"
-            alt="Цифровая архитектура"
+            src="https://cdn.poehali.dev/projects/80cea824-f242-4d1c-92d7-c126d258457c/files/fa79d6a4-9c01-45b2-8430-1c8ed578f1c5.jpg"
+            alt="Архитектурный чертёж"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/65" />
+          <div className="absolute inset-0 bg-black/70" />
         </motion.div>
       </div>
 
@@ -56,8 +56,8 @@ export default function Promo() {
         <h3 className="text-white uppercase text-sm md:text-base tracking-[0.3em] mb-4">
           Тарифы
         </h3>
-        <p className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-16 max-w-4xl leading-tight">
-          Платите как за подписку на сервис. Не как за разработку сайта.
+        <p className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-16 max-w-4xl leading-tight font-bold">
+          Платите как за подписку.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
