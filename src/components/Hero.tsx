@@ -33,11 +33,11 @@ export default function Hero() {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
           ПОЕХАЛИ
         </h1>
-        <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90 leading-relaxed">
-          Лицензия на ИИ-сервис для самостоятельной разработки сайтов жилых комплексов и корпоративных проектов — силами вашей команды
+        <p className="text-lg md:text-2xl max-w-3xl mx-auto opacity-90 leading-relaxed">
+          Делайте сайты ЖК сами. Без агентств, тикетов и счетов на 1,5 миллиона.
         </p>
         <p className="mt-8 text-sm md:text-base opacity-70 uppercase tracking-wider">
-          Для ООО «Горстройпроект»
+          Предложение для «Горстройпроект»
         </p>
       </div>
     </div>
