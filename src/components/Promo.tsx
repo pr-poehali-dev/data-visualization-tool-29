@@ -38,7 +38,7 @@ export default function Promo() {
     <div
       id="tariffs"
       ref={container}
-      className="relative flex items-center justify-center min-h-screen overflow-hidden py-24"
+      className="relative flex items-center justify-center min-h-screen overflow-hidden py-16 sm:py-20 lg:py-24"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
@@ -52,27 +52,27 @@ export default function Promo() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl px-6">
-        <h3 className="text-white uppercase text-sm md:text-base tracking-[0.3em] mb-4">
+      <div className="relative z-10 w-full max-w-7xl px-4 sm:px-6">
+        <h3 className="text-white uppercase text-xs sm:text-sm md:text-base tracking-[0.3em] mb-3 sm:mb-4">
           Тарифы
         </h3>
-        <p className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-16 max-w-4xl leading-tight font-bold">
+        <p className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-10 sm:mb-16 max-w-4xl leading-tight font-bold">
           Платите как за подписку.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
           {tariffs.map((t) => (
             <div
               key={t.name}
-              className={`p-8 backdrop-blur-md border transition-all duration-500 hover:-translate-y-2 ${
+              className={`p-6 sm:p-8 backdrop-blur-md border transition-all duration-500 hover:-translate-y-2 ${
                 t.highlight
                   ? "bg-white text-neutral-900 border-white"
                   : "bg-white/10 text-white border-white/20"
               }`}
             >
-              <h4 className="uppercase tracking-widest text-xs mb-4 opacity-70">{t.name}</h4>
-              <p className="text-3xl lg:text-4xl font-bold mb-6">{t.price}</p>
-              <div className="space-y-3 text-sm border-t border-current/20 pt-6">
+              <h4 className="uppercase tracking-widest text-xs mb-3 sm:mb-4 opacity-70">{t.name}</h4>
+              <p className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-5 sm:mb-6">{t.price}</p>
+              <div className="space-y-2 sm:space-y-3 text-sm border-t border-current/20 pt-4 sm:pt-6">
                 <p>{t.requests}</p>
                 <p className="opacity-80">{t.storage}</p>
                 <p className="opacity-80">{t.output}</p>
@@ -81,7 +81,7 @@ export default function Promo() {
           ))}
         </div>
 
-        <div className="mt-12 text-white/80 text-sm md:text-base max-w-3xl space-y-2">
+        <div className="mt-10 sm:mt-12 text-white/80 text-sm md:text-base max-w-3xl space-y-2">
           <p>— Платите авансом, минимум 100 000 ₽. Баланс не сгорает.</p>
           <p>— Закончились запросы — докупаете с того же баланса.</p>
           <p>— Под большой объём — обсудим персональные условия.</p>

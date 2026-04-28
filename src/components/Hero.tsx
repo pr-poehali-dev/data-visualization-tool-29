@@ -26,16 +26,16 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/55" />
       </motion.div>
 
-      <div className="relative z-20 text-center text-white px-6">
-        <p className="uppercase tracking-[0.3em] text-xs md:text-sm mb-8 opacity-70">
+      <div className="relative z-20 text-center text-white px-4 sm:px-6 w-full">
+        <p className="uppercase tracking-[0.3em] text-[10px] sm:text-xs md:text-sm mb-6 sm:mb-8 opacity-70">
           Предложение для «Горстройпроект»
         </p>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1] max-w-5xl mx-auto mb-10">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.05] max-w-5xl mx-auto mb-8 sm:mb-10">
           Сайты ЖК — без агентства
         </h1>
         <a
-          href="mailto:azaliya@poehalli.ru?subject=Запрос%20бесплатного%20пробного%20периода%20—%20Горстройпроект"
-          className="relative z-30 inline-block bg-white text-black px-8 py-4 text-sm uppercase tracking-wider font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer"
+          href="#contact"
+          className="relative z-30 inline-block bg-white text-black px-6 sm:px-8 py-4 text-xs sm:text-sm uppercase tracking-wider font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer w-full max-w-sm sm:w-auto sm:max-w-none"
         >
           Получить бесплатный пробный период
         </a>

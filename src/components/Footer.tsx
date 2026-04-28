@@ -3,7 +3,6 @@ import Icon from "@/components/ui/icon";
 export default function Footer() {
   return (
     <div
-      id="contact"
       className="relative h-[400px] sm:h-[500px] lg:h-[600px] max-h-[600px]"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >

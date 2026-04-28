@@ -4,19 +4,19 @@ interface HeaderProps {
 
 export default function Header({ className }: HeaderProps) {
   return (
-    <header className={`absolute top-0 left-0 right-0 z-10 p-6 ${className ?? ""}`}>
+    <header className={`absolute top-0 left-0 right-0 z-10 p-4 sm:p-6 ${className ?? ""}`}>
       <div className="flex justify-between items-center">
-        <div className="text-white text-sm uppercase tracking-wide">poehali.dev</div>
-        <nav className="flex gap-8">
+        <div className="text-white text-xs sm:text-sm uppercase tracking-wide">poehali.dev</div>
+        <nav className="flex gap-4 sm:gap-8">
           <a
             href="#tariffs"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xs sm:text-sm"
           >
             Тарифы
           </a>
           <a
             href="#contact"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xs sm:text-sm"
           >
             Контакты
           </a>
